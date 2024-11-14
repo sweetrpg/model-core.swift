@@ -19,7 +19,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "ModelCore",
-            dependencies: ["Common"]),
+            dependencies: [.product(name: "Common", package: "common.swift")]),
         .testTarget(
             name: "ModelCoreTests",
             dependencies: ["ModelCore"]
