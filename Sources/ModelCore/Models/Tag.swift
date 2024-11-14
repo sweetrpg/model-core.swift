@@ -1,6 +1,6 @@
 import Foundation
 
 public struct Tag {
-    name: String
-    value: String
+    var name: String
+    var value: String
 }

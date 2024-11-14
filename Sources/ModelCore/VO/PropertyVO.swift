@@ -1,7 +1,7 @@
 import Foundation
 
 public struct PropertyVO {
-    name: String
-    kind: String
-    value: String
+    var name: String
+    var kind: String
+    var value: String
 }
