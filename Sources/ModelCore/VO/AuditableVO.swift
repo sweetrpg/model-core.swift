@@ -1,6 +1,6 @@
 import Foundation
 
-open struct AuditableVO {
+public struct AuditableVO {
     createdAt: Date
     createdBy: String
     updatedAt: Date

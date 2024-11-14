@@ -1,6 +1,6 @@
 import Foundation
 
-open struct PropertyVO {
+public struct PropertyVO {
     name: String
     kind: String
     value: String

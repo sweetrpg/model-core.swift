@@ -1,6 +1,6 @@
 import Foundation
 
-open struct Auditable {
+public struct Auditable {
     createdAt: Date
     createdBy: String
     updatedAt: Date

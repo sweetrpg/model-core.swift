@@ -1,6 +1,6 @@
 import Foundation
 
-open struct Tag {
+public struct Tag {
     name: String
     value: String
 }
