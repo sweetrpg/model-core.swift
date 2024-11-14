@@ -12,7 +12,7 @@ let package = Package(
             targets: ["ModelCore"]),
     ],
     dependencies: [
-        .package(url: "git@github.com:sweetrpg/common.swift", from: "0.0.1"),
+        .package(url: "https://github.com/sweetrpg/common.swift.git", from: "0.0.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
