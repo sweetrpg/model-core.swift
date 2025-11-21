@@ -15,7 +15,7 @@ jobs:
                     - name: Linux
                       os: ubuntu-20.04
         steps:
-            - uses: actions/checkout@v5
+            - uses: actions/checkout@v6
             - name: Get swift version
               id: get_swift_version
               run: |
