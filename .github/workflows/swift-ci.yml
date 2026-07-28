@@ -28,7 +28,7 @@ jobs:
                     - name: Linux
                       os: ubuntu-latest
         steps:
-            - uses: actions/checkout@v6
+            - uses: actions/checkout@v7
             - name: Get swift version
               id: get_swift_version
               run: |
@@ -115,7 +115,7 @@ jobs:
     #        runs-on: ubuntu-latest
     #        concurrency: docs
     #        steps:
-    #            - uses: actions/checkout@v6
+    #            - uses: actions/checkout@v7
     #            - uses: actions/setup-python@v5
     #              with:
     #                  python-version: "3.11"
@@ -135,7 +135,7 @@ jobs:
         permissions:
             contents: write
         steps:
-            - uses: actions/checkout@v6
+            - uses: actions/checkout@v7
               with:
                   fetch-depth: 0
             - name: Bump version and push tag
@@ -150,7 +150,7 @@ jobs:
         runs-on: ubuntu-latest
         concurrency: publish
         steps:
-            - uses: actions/checkout@v6
+            - uses: actions/checkout@v7
               with:
                 fetch-depth: 0
             - name: Get latest tag
